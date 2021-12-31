@@ -1,0 +1,60 @@
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar-nav .nav-item {
+  padding: 0 8px;
+}
+
+.div-parts h1 {
+  padding: 32px;
+  font-size: 56px;
+}
+
+.div-parts h4 {
+  padding: 0 28px;
+  font-size: 32px;
+}
+
+@media (max-width: 576px) {
+  .div-parts h1 {
+    padding: 16px;
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  .div-parts h4 {
+    padding: 0 16px;
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 360px) {
+  .div-parts h1 {
+    padding: 8px;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 360px) {
+  .div-parts h4 {
+    padding: 0 8px;
+    font-size: 16px;
+  }
+}
+
+#event-banner {
+  width: auto;
+}
+
+.event-button {
+  margin: 16px 16px;
+  font-size: 24px;
+}
+
+.saupnvjt-footer-data {
+  color: var(--bs-blue);
+  text-decoration: underline;
+}
+
