@@ -4,6 +4,7 @@
 	justify-content: space-around;
 	padding:96px 16px 64px 16px;
 	background-color:var(--bg-color);
+	gap: 32px;
 }
 .intro img{
 	width:50%;
@@ -50,6 +51,7 @@
 
 .stories-section{
     background:var(--bg-color);
+	padding: 96px 32px;
 }
 .stories-section-header{
 	color:var(--color);
@@ -90,11 +92,15 @@
     padding: 2rem 0.5rem;
 }
 
+.slider-section{
+    background:var(--bg-color);
+	padding: 96px 32px;
+}
 .slider-header{
 	color:var(--color);
 	font-size:2em;
 	background-color:var(--bg-color);
-	padding: 0 64px;
+	padding-bottom: 64px;
 }
 .slider{
 	background-color:var(--bg-color);
@@ -102,7 +108,6 @@
 	display:grid;
 	grid-template-columns: repeat(10, 1fr);
 	overflow:hidden;
-	padding: 64px 0;
 }
 .slide-img{
 	padding:0 32px;
@@ -110,14 +115,14 @@
 	text-align:center;
 	cursor:pointer;
 }
-.banner-header{
+.banner{
 	/* BLUE : #007bff */
 	background-color:var(--bg-color);
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-	padding-bottom: 64px;
+	padding-bottom: 96px 32px;
 }
 .bh-reminder{
 	padding:16px;
@@ -216,6 +221,17 @@
 	}
 
 	.stories-section {
+		padding: 96px 16px;
+	}
+
+	.slider-section {
+		padding: 96px 16px;
+	}
+	.slide-img{
+		padding:0 16px;
+	}
+
+	.banner {
 		padding: 96px 16px;
 	}
 	/* BODY CSS */
