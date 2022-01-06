@@ -54,7 +54,7 @@
 .stories-section-header{
 	color:var(--color);
 	font-size:2em;
-	padding: 0 64px;
+	padding-bottom: 64px;
 }
 .ourstories{
 	font-family: Caveat,sans-serif;
