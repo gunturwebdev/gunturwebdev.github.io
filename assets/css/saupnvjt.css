@@ -7,45 +7,30 @@ body {
 }
 
 .div-parts h1 {
-  padding: 32px;
+  padding: 8px;
   font-size: 56px;
-}
-
-.div-parts h4 {
-  padding: 0 28px;
-  font-size: 32px;
 }
 
 @media (max-width: 576px) {
   .div-parts h1 {
-    padding: 16px;
     font-size: 48px;
   }
 }
 
-@media (max-width: 576px) {
-  .div-parts h4 {
-    padding: 0 16px;
-    font-size: 21px;
-  }
-}
-
 @media (max-width: 360px) {
   .div-parts h1 {
-    padding: 8px;
     font-size: 32px;
   }
 }
 
-@media (max-width: 360px) {
-  .div-parts h4 {
-    padding: 0 8px;
-    font-size: 16px;
-  }
+#banner-row {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
 }
 
-#event-banner {
-  width: auto;
+#banner-event {
+  display: flex;
 }
 
 .event-button {
