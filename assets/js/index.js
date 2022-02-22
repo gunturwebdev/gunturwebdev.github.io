@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
-    const preloader = document.querySelector(".loading-page");
-    preloader.style.display = "none";
+    // const preloader = document.querySelector(".loading-page");
+    // preloader.style.display = "none";
 
     let today;
     let hours;

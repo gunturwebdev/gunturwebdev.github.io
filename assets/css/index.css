@@ -15,7 +15,7 @@
   font-size: 2em;
   color: var(--color);
 }
-
+/* _____________________ */
 .tujuan {
   text-align: center;
   background-color: var(--bg-color);
@@ -36,7 +36,7 @@
   color: var(--color);
   background-color: var(--sectioncolor);
 }
-
+/* _____________________ */
 .outro {
   text-align: center;
   background-color: var(--bg-color);
@@ -48,17 +48,17 @@
   font-size: 1em;
   background-color: var(--buttoncolor);
 }
-
-.stories-section {
+/* _____________________ */
+.event-section {
   background: var(--bg-color);
   padding: 96px 32px;
 }
-.stories-section-header {
+.event-section-header {
   color: var(--color);
   font-size: 2em;
   padding-bottom: 64px;
 }
-.ourstories {
+.ourevent {
   font-family: Caveat, sans-serif;
   color: var(--color);
   display: grid;
@@ -69,40 +69,84 @@
   margin: 0 auto;
   text-align: center;
 }
-.ourstories a {
+.ourevent a {
   cursor: pointer;
 }
-.story-grid {
+.event-grid {
   background: var(--sectioncolor);
 }
 .code {
   color: var(--color);
   transition: color 0.3s ease-out;
 }
-.story-grid:hover .code {
+.event-grid:hover .code {
   color: var(--buttoncolor);
 }
-.story-image {
+.event-image {
   height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
 }
-.story-text {
+.event-text {
   font-size: 2rem;
   padding: 2rem 0.5rem;
 }
-
-.slider-section {
+/* _____________________ */
+.achievement-section {
   background: var(--bg-color);
   padding: 96px 32px;
 }
-.slider-header {
+.achievement-section-header {
+  color: var(--color);
+  font-size: 2em;
+  padding-bottom: 64px;
+}
+.ourachievement {
+  font-family: Caveat, sans-serif;
+  color: var(--color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4em;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ourachievement a {
+  cursor: pointer;
+}
+.achievement-grid {
+  background: var(--sectioncolor);
+}
+.code {
+  color: var(--color);
+  transition: color 0.3s ease-out;
+}
+.achievement-grid:hover .code {
+  color: var(--buttoncolor);
+}
+.achievement-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+.achievement-text {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+/* _____________________ */
+.gallery-section {
+  background: var(--bg-color);
+  padding: 96px 32px;
+}
+.gallery-section-header {
   color: var(--color);
   font-size: 2em;
   background-color: var(--bg-color);
   padding-bottom: 64px;
 }
 .slider {
+  scroll-behavior: smooth;
   background-color: var(--bg-color);
   margin: 0 auto;
   display: grid;
@@ -114,6 +158,49 @@
   font-size: 3em;
   text-align: center;
   cursor: pointer;
+}
+/* _____________________ */
+.member-section {
+  background: var(--bg-color);
+  padding: 96px 32px;
+}
+.member-section-header {
+  color: var(--color);
+  font-size: 2em;
+  padding-bottom: 64px;
+}
+.ourmember {
+  font-family: Caveat, sans-serif;
+  color: var(--color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4em;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ourmember a {
+  cursor: pointer;
+}
+.member-grid {
+  background: var(--sectioncolor);
+}
+.code {
+  color: var(--color);
+  transition: color 0.3s ease-out;
+}
+.member-grid:hover .code {
+  color: var(--buttoncolor);
+}
+.member-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+.member-text {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
 }
 .banner {
   /* BLUE : #007bff */
@@ -137,63 +224,6 @@
   font-size: 1.5em;
 }
 /* SLIDER SECTION */
-/* FEEDBACK SECTION */
-/* .feedback{
-	padding: 10em 0;
-	background:var(--bg-color);
-}
-.feedback-header{
-	color: var(--color);
-	padding-bottom:1em;
-    font-size: 2em;
-	text-align: center;
-}
-.feedback-content{
-    background: var(--bg-color);
-    width:100%;
-    padding: 16px 32px;
-}
-.form-group{
-	display:flex;
-	flex-direction:column;
-	margin: 0 auto 1em auto;
-	max-width:360px;
-}
-.form-label{
-	color:var(--color);
-	padding-bottom:8px;
-}
-.form-control {
-	display: block;
-	width: 100%;
-	height: 2.375rem;
-	padding: 0.5rem 0.5rem;
-	color: var(--sectioncolor);
-	background-color: #fff;
-	border: 2px solid #fff;
-	border-radius: 8px;
-	outline: none;
-	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-.input-textarea{
-	min-height: 120px;
-	width: 100%;
-	resize: vertical;
-}
-#feedback-button{
-    border: 0;
-    background: var(--buttoncolor);
-    padding: 8px;
-    width: 100%;
-    box-shadow: 0 12px 24px rgb(2 30 84 / 10%);
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: rgb(255, 255, 255);
-}
-#feedback-button:hover{
-	background:var(--buttoncolor);
-} */
-/* FEEDBACK SECTION */
 /* BODY CSS */
 
 @media screen and (max-width: 768px) {
@@ -220,15 +250,23 @@
     font-size: 1.2em;
   }
 
-  .stories-section {
+  .event-section {
     padding: 96px 16px;
   }
 
-  .slider-section {
+  .achievement-section {
+    padding: 96px 16px;
+  }
+
+  .gallery-section {
     padding: 96px 16px;
   }
   .slide-img {
     padding: 0 16px;
+  }
+
+  .gallery-section {
+    padding: 96px 16px;
   }
 
   .banner {
