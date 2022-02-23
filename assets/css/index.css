@@ -83,7 +83,6 @@
   color: var(--buttoncolor);
 }
 .event-image {
-  height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
 }
@@ -102,7 +101,7 @@
   padding-bottom: 64px;
 }
 .ourachievement {
-  font-family: Caveat, sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: var(--color);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -115,9 +114,6 @@
 .ourachievement a {
   cursor: pointer;
 }
-.achievement-grid {
-  background: var(--sectioncolor);
-}
 .code {
   color: var(--color);
   transition: color 0.3s ease-out;
@@ -126,7 +122,6 @@
   color: var(--buttoncolor);
 }
 .achievement-image {
-  height: calc(100% - 6.8rem);
   width: 100%;
   object-fit: cover;
 }
@@ -173,7 +168,7 @@
   font-family: Caveat, sans-serif;
   color: var(--color);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 4em;
   width: 100%;
   max-width: 1280px;
@@ -183,9 +178,6 @@
 .ourmember a {
   cursor: pointer;
 }
-.member-grid {
-  background: var(--sectioncolor);
-}
 .code {
   color: var(--color);
   transition: color 0.3s ease-out;
@@ -194,8 +186,7 @@
   color: var(--buttoncolor);
 }
 .member-image {
-  height: calc(100% - 6.8rem);
-  width: 100%;
+  width: 100px;
   object-fit: cover;
 }
 .member-text {
@@ -265,7 +256,7 @@
     padding: 0 16px;
   }
 
-  .gallery-section {
+  .member-section {
     padding: 96px 16px;
   }
 

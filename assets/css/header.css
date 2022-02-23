@@ -28,9 +28,27 @@ body {
   --buttoncolor: #047cfd;
 }
 
-.card {
+.box-card {
   box-shadow: 0 12px 24px rgb(0 0 0 / 10%);
   border-radius: 8px;
+}
+
+.circle-card {
+  box-shadow: 0 12px 24px rgb(0 0 0 / 10%);
+  border-radius: 100%;
+  background-color: white;
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
 }
 
 a {

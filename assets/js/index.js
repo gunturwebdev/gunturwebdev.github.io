@@ -37,6 +37,10 @@ const getCSS = (e) => {
     return window.getComputedStyle(e,null);
 };
 
+function loading(obj) {
+    obj.style.display = "none";
+}
+
 // ______________Flex menu
 const menuButton = document.querySelector(".menu-button");
 menuButton.addEventListener("click", () => {
