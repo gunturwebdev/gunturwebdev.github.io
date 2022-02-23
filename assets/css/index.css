@@ -72,19 +72,12 @@
 .ourevent a {
   cursor: pointer;
 }
-.event-grid {
-  background: var(--sectioncolor);
-}
 .code {
   color: var(--color);
   transition: color 0.3s ease-out;
 }
 .event-grid:hover .code {
   color: var(--buttoncolor);
-}
-.event-image {
-  width: 100%;
-  object-fit: cover;
 }
 .event-text {
   font-size: 2rem;
